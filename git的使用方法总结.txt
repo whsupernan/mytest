@@ -1,0 +1,41 @@
+                                               git的使用：
+
+1要从云端下载所需要的文件方法：
+
+首先在自己本地计算机上面建一个需要从云端下载文件时所需要的文件夹
+
+git config --global user.name whsuperman(whsupernan){用户名} 验证你github用户名
+
+
+git config --global user.email 2350019998@qq.com(2036289090@qq.com){邮箱} 验证你github的邮箱
+
+
+git clone  粘贴你要从云端下载文件的Https地址
+
+
+这时你就可以发现在你的本地所创的文件夹下面有你从coding下载下来的文件了
+---------------------------------------------------
+
+
+2.要从本地计算机上面上传文件到云端的方法：
+
+首先把需要上传的文件放到本地所创建的文件夹中  eg:one.html
+
+cd mytest    然后cd到云端的项目文件夹
+
+git add one.html   将one.html网页文件加到本地仓库的项目文件夹中
+
+git commit  (这时给要上传的文件注释命令)进入后
+            写注释要执行以下操作：
+            1.跳转到最后：shift+g
+            2.下面新加一行：o
+            3.编辑内容：输入内容
+            4.退出vi编辑器：esc
+            5.保存退出：shift+zz（按两下zz）
+
+git push  将本地仓库的文件上传到云端的项目文件夹中
+
+
+git pull  是将云端的文件下载到本地
+
+
