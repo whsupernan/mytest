@@ -1,0 +1,8 @@
+<html>
+<title>myIndex</title>
+<head></head>
+<body>
+ <h1> my first index.html<h1>
+ <script>alert:("Welcome to my test")</script>
+</body>
+</html>
